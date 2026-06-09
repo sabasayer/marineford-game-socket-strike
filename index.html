@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Socket Strike — Tetris-Fit Space Shooter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="shell">
+    <header>
+      <h1>Socket Strike</h1>
+      <p class="tagline">Fit tetromino bullets into enemy sockets to deal damage.</p>
+    </header>
+    <canvas id="game" width="640" height="800"></canvas>
+    <aside id="hud">
+      <div><span>Score</span><strong id="score">0</strong></div>
+      <div><span>Wave</span><strong id="wave">1</strong></div>
+      <div><span>Next piece</span><canvas id="preview" width="96" height="96"></canvas></div>
+      <div class="controls">
+        <p><kbd>←</kbd><kbd>→</kbd> move</p>
+        <p><kbd>Q</kbd><kbd>E</kbd> rotate</p>
+        <p><kbd>Space</kbd> fire</p>
+        <p><kbd>R</kbd> restart</p>
+      </div>
+    </aside>
+    <p id="status"></p>
+  </div>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

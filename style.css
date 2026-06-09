@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(ellipse at 50% 0%, #1a2744 0%, #070b14 70%);
+  color: #d8e8ff;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+#shell {
+  display: grid;
+  grid-template-columns: auto 160px;
+  grid-template-rows: auto auto auto;
+  gap: 12px 20px;
+  padding: 20px;
+  align-items: start;
+}
+
+header {
+  grid-column: 1 / -1;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.6rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #7ee8ff;
+}
+
+.tagline {
+  margin: 4px 0 0;
+  opacity: 0.75;
+  font-size: 0.9rem;
+}
+
+#game {
+  border: 2px solid #2a4a7a;
+  border-radius: 8px;
+  background: #050a12;
+  box-shadow: 0 0 40px rgba(40, 120, 255, 0.15);
+}
+
+#hud {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 0.85rem;
+}
+
+#hud div span {
+  display: block;
+  opacity: 0.6;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+}
+
+#hud strong {
+  font-size: 1.4rem;
+  color: #ffe66d;
+}
+
+#preview {
+  margin-top: 6px;
+  background: #0d1524;
+  border-radius: 6px;
+  border: 1px solid #2a4a7a;
+}
+
+.controls p {
+  margin: 0 0 6px;
+  line-height: 1.5;
+}
+
+kbd {
+  display: inline-block;
+  min-width: 1.4em;
+  text-align: center;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: #1a2a44;
+  border: 1px solid #3a5a8a;
+  font-size: 0.75rem;
+}
+
+#status {
+  grid-column: 1 / -1;
+  margin: 0;
+  min-height: 1.2em;
+  opacity: 0.8;
+  font-size: 0.85rem;
+}

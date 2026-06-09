@@ -43,7 +43,11 @@ Vanilla HTML5 Canvas — no build step, deployable as static files.
 
 ## Screenshots
 
-See `screenshots/` in the repo root.
+![](https://raw.githubusercontent.com/sabasayer/marineford-game-socket-strike/main/screenshots/01-title-screen.png)
+
+![](https://raw.githubusercontent.com/sabasayer/marineford-game-socket-strike/main/screenshots/02-combat.png)
+
+![](https://raw.githubusercontent.com/sabasayer/marineford-game-socket-strike/main/screenshots/03-socket-fit.png)
 
 ## Follow-ups
 
